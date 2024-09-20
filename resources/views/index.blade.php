@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Abvout Start -->
-    <div id="aboutnav" class="container-fluid about pb-5">
+    <div id="about" class="container-fluid about pb-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
@@ -58,9 +58,9 @@
                                     <div class="ms-4">
                                         <h4>Call Us</h4>
                                         <p class="mb-0 fs-5" style="letter-spacing: 1px;">
-                                            +62 815-1981-6655
+                                            081519816655
                                             <br>
-                                            +62812-1981-6655
+                                            081219816655
                                         </p>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@
     <!-- About End -->
 
     <!-- Services Start -->
-    <div id="navservices" class="container-fluid service pb-5">
+    <div id="services" class="container-fluid service pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Services</h4>
@@ -225,7 +225,7 @@
 
 
     <!-- Offer Start -->
-    <div id="offernav" class="container-fluid offer-section pb-5">
+    <div id="offer" class="container-fluid offer-section pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Offer</h4>
@@ -543,7 +543,7 @@
 
 
     <!-- Team Start -->
-    <div id="teamnav" class="container-fluid team pb-5">
+    <div id="team" class="container-fluid team pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Team</h4>
@@ -644,7 +644,7 @@
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <div id="testimonialnav" class="container-fluid testimonial pb-5">
+    <div id="testimonial" class="container-fluid testimonial pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Testimonial</h4>

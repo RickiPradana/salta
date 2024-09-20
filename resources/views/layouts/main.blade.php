@@ -2,13 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>GREEN PRESERVO</title>
-    {{-- <link rel="icon" href="{{ asset('assets/img/salta-icon.ico') }}" type="image/ico"> --}}
-    <link rel="icon" href="{{ asset('assets/img/salta-icon.ico') }}" type="image/x-icon">
+    <title>Green Preservo</title>
+    {{-- <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="description" content=""> --}}
+
+    <meta name="title" content="Green Preservo">
+    <link rel="icon" href="{{ asset('assets/img/salta-icon.ico') }}" type="image/x-icon">
+    <meta name="description"
+        content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
+    <meta name="keywords"
+        content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -112,12 +120,12 @@
                 </script>
 
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="#homenav" class="nav-item nav-link active">Home</a>
-                    <a href="#aboutnav" class="nav-item nav-link">About</a>
-                    <a href="#navservices" class="nav-item nav-link">Services</a>
-                    <a href="#offernav" class="nav-item nav-link">Our offer</a>
-                    <a href="#teamnav" class="nav-item nav-link">Our team</a>
-                    <a href="#testimonialnav" class="nav-item nav-link">Testimonial</a>
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#services" class="nav-item nav-link">Services</a>
+                    <a href="#offer" class="nav-item nav-link">Our offer</a>
+                    <a href="#team" class="nav-item nav-link">Our team</a>
+                    <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
                     {{-- <div class="nav-item dropdown">
               <a href="#" class="nav-link" data-bs-toggle="dropdown">
                   <span class="dropdown-toggle">Pages</span>
@@ -128,13 +136,13 @@
                   <a href="#offer" class="dropdown-item">Our offer</a>
               </div>
           </div> --}}
-                    <a href="#contactnav" class="nav-item nav-link">Contact Us</a>
+                    <a href="#contact" class="nav-item nav-link">Contact Us</a>
                 </div>
             </div>
         </nav>
 
         <!-- Carousel Start -->
-        <div id="homenav" class="header-carousel owl-carousel">
+        <div id="home" class="header-carousel owl-carousel">
             <div class="header-carousel-item">
                 <img src="{{ asset('assets/img/fotoslide2.jpg') }}" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
@@ -175,10 +183,10 @@
                                         <div class="d-flex justify-content-end ms-2">
                                             <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i
                                                     class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i
-                                                    class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i
-                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle mx-2"
+                                                href=""><i class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle mx-2"
+                                                href=""><i class="fab fa-instagram"></i></a>
                                             <a class="btn btn-md-square btn-light rounded-circle ms-2"
                                                 href=""><i class="fab fa-linkedin-in"></i></a>
                                         </div>
