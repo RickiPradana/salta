@@ -35,8 +35,11 @@
                                 <div class="d-flex">
                                     <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
                                     <div class="ms-4">
-                                        <h4>Business Consuluting</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        <h4>Business Consulting</h4>
+                                        <p>
+                                            Layanan menyediakan saran, analisis, teknologi dan strategi dalam mengatasi
+                                            masalah, meningkatkan produksi & kinerja untuk mencapai tujuan.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +48,7 @@
                                     <div><i class="fas fa-regular fa-bookmark fa-3x text-primary"></i></div>
                                     <div class="ms-4">
                                         <h4>Year Of Expertise</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        <p>2010</p>
                                     </div>
                                 </div>
                             </div>
