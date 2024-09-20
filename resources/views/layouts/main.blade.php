@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content=""> --}}
-
+    
     <meta name="title" content="Green Preservo">
     <link rel="icon" href="{{ asset('assets/img/salta-icon.ico') }}" type="image/x-icon">
     <meta name="description"
-        content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
+    content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
     <meta name="keywords"
-        content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
+    content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -257,7 +258,7 @@
                                         Indonesia
                                     </h1>
                                     <p class="mb-1 fs-5">
-                                        Digunakan Untuk Pangan Olahan Seperti : Pangan Olahan Tahu, Mie Kuning, Bakso,
+                                        Digunakan Untuk Pangan Olahan Seperti : <br> Pangan Olahan Tahu, Mie Kuning, Bakso,
                                         Otak-Otak, Cincau, dll.
                                     </p>
                                     {{-- <p class="text-uppercase mb-4" style="color: greenyellow">

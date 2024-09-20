@@ -48,7 +48,10 @@
                                     <div><i class="fas fa-regular fa-bookmark fa-3x text-primary"></i></div>
                                     <div class="ms-4">
                                         <h4>Year Of Expertise</h4>
-                                        <p>2010</p>
+                                        <p>
+                                         2010
+                                         <a href="{{ asset('assets/file/PGJ_SIRIN_DEPOK030824.xlsx') }}">PGJ SIRIN DEPOK 03 Agustus 2024</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
