@@ -162,8 +162,6 @@
                                         No. Evaluasi : PPP2409-5197
                                         <br>
                                         Id Izin OSS : I-202408080403581932627
-                                        <br>
-                                        e-sertifikasi.pom.go.id
                                     </p>
                                     <p class="text-uppercase mb-1" style="color: greenyellow">
                                         NOMOR INDUK BERUSAHA (NIB) : 2008230053865
@@ -178,7 +176,7 @@
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
                                   href="#">Learn More</a> --}}
                                     </div>
-                                    <div
+                                    {{-- <div
                                         class="d-flex align-items-center justify-content-center justify-content-md-end">
                                         <h2 class="text-white me-2">Follow Us:</h2>
                                         <div class="d-flex justify-content-end ms-2">
@@ -191,7 +189,7 @@
                                             <a class="btn btn-md-square btn-light rounded-circle ms-2"
                                                 href=""><i class="fab fa-linkedin-in"></i></a>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -207,12 +205,10 @@
                                 <div class="text-center">
                                     <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To GREEN PRESERVO</h4>
                                     <h1 class="display-4 text-uppercase mb-4" style="color: greenyellow">
-                                        Hindari Penggunaan Bahan Tambahan Pangan Berbahaya Bagi Kesehatan Masyarakat
-                                        Indonesia.
+                                        Hindari Penggunaan Bahan Tambahan Pangan Berbahaya
                                     </h1>
-                                    <p class="mb-5 fs-5">
-                                        Green Preservo Hadir Memenuhi Standar Cara Produksi Pangan Olahan Yang Baik
-                                        (CPPOB) BPOM RI Sesuai Dengan PERATURAN BADAN PENGAWAS OBAT DAN MAKANAN NOMOR 11
+                                    <p class="mb-2 fs-5">
+                                        Sesuai Dengan PERATURAN BPOM RI NOMOR 11
                                         TAHUN 2019 TENTANG BAHAN TAMBAHAN PANGAN & NOMOR 29 TAHUN 2021 TENTANG
                                         PERSYARATAN BAHAN TAMBAHAN PANGAN CAMPURAN
                                     </p>
@@ -223,7 +219,7 @@
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
                                   href="#">Learn More</a> --}}
                                     </div>
-                                    <div class="d-flex align-items-center justify-content-center">
+                                    {{-- <div class="d-flex align-items-center justify-content-center">
                                         <h2 class="text-white me-2">Follow Us:</h2>
                                         <div class="d-flex justify-content-end ms-2">
                                             <a class="btn btn-md-square btn-light rounded-circle me-2"
@@ -235,7 +231,7 @@
                                             <a class="btn btn-md-square btn-light rounded-circle ms-2"
                                                 href=""><i class="fab fa-linkedin-in"></i></a>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -257,8 +253,8 @@
                                         Green Preservo Di Distribusikan Kepada Produsen Pangan Olahan Di Seluruh
                                         Indonesia
                                     </h1>
-                                    <p class="mb-1 fs-5">
-                                        Digunakan Untuk Pangan Olahan Seperti : <br> Pangan Olahan Tahu, Mie Kuning, Bakso,
+                                    <p class="mb-4 fs-5">
+                                        Untuk Bahan Tambahan Seperti : <br> Pangan Olahan Tahu, Mie Kuning, Bakso,
                                         Otak-Otak, Cincau, dll.
                                     </p>
                                     {{-- <p class="text-uppercase mb-4" style="color: greenyellow">
@@ -274,7 +270,7 @@
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
                                   href="#">Learn More</a> --}}
                                     </div>
-                                    <div
+                                    {{-- <div
                                         class="d-flex align-items-center justify-content-center justify-content-md-end">
                                         <h2 class="text-white me-2">Follow Us:</h2>
                                         <div class="d-flex justify-content-end ms-2">
@@ -287,7 +283,7 @@
                                             <a class="btn btn-md-square btn-light rounded-circle ms-2"
                                                 href=""><i class="fab fa-linkedin-in"></i></a>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
