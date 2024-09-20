@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CV. SALTA</title>
+    <title>GREEN PRESERVO</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -86,58 +86,82 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="" class="navbar-brand p-0">
-                {{-- <h1 class="text-primary"><i class="fas fa-search-dollar me-3"></i>Stocker</h1> --}}
-                <!-- <img src="assets/img/logo.png" alt="Logo"> -->
-                <img src="assets/img/salta.png" alt="">
+                <img src="assets/img/salta.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
+                <script>
+                    // Wait for the DOM to fully load
+                    document.addEventListener("DOMContentLoaded", function() {
+                        const navLinks = document.querySelectorAll('.nav-item.nav-link');
+
+                        navLinks.forEach(link => {
+                            link.addEventListener('click', function() {
+                                // Remove 'active' class from all links
+                                navLinks.forEach(item => item.classList.remove('active'));
+                                // Add 'active' class to the clicked link
+                                this.classList.add('active');
+                            });
+                        });
+                    });
+                </script>
+
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    {{-- <a href="blog.html" class="nav-item nav-link">Blogs</a> --}}
-                    <div class="nav-item dropdown">
+                    <a href="#homenav" class="nav-item nav-link active">Home</a>
+                    <a href="#aboutnav" class="nav-item nav-link">About</a>
+                    <a href="#navservices" class="nav-item nav-link">Services</a>
+                    <a href="#offernav" class="nav-item nav-link">Our offer</a>
+                    <a href="#teamnav" class="nav-item nav-link">Our team</a>
+                    <a href="#testimonialnav" class="nav-item nav-link">Testimonial</a>
+                    {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">
                             <span class="dropdown-toggle">Pages</span>
                         </a>
                         <div class="dropdown-menu m-0">
-                            {{-- <a href="feature.html" class="dropdown-item">Our Features</a> --}}
-                            <a href="team.html" class="dropdown-item">Our team</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="offer.html" class="dropdown-item">Our offer</a>
-                            {{-- <a href="FAQ.html" class="dropdown-item">FAQs</a> --}}
-                            {{-- <a href="404.html" class="dropdown-item">404 Page</a> --}}
+                            <a href="#team" class="dropdown-item">Our team</a>
+                            <a href="#testimonial" class="dropdown-item">Testimonial</a>
+                            <a href="#offer" class="dropdown-item">Our offer</a>
                         </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div> --}}
+                    <a href="#contactnav" class="nav-item nav-link">Contact Us</a>
                 </div>
-                {{-- <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get
-                    Started</a> --}}
             </div>
         </nav>
 
         <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
+        <div id="homenav" class="header-carousel owl-carousel">
             <div class="header-carousel-item">
-                <img src="assets/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                <img src="assets/img/fotoslide2.jpg" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row gy-0 gx-5">
-                            <div class="col-lg-0 col-xl-5"></div>
+                            <div class="col-lg-0 col-xl-5">
+                                {{-- <img src="assets/img/contentslide2.jpeg" alt="Logo"> --}}
+                            </div>
                             <div class="col-xl-7 animated fadeInLeft">
                                 <div class="text-sm-center text-md-end">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To SALTA</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher
-                                        return</h1>
-                                    <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To GREEN PRESERVO</h4>
+                                    <h1 class="display-4 text-uppercase mb-4" style="color: greenyellow">
+                                        Cara Produksi Pangan Olahan yang Baik (CPPOB) BPOM RI
+                                    </h1>
+                                    <p class="mb-1 fs-5">
+                                        No. Evaluasi : PPP2409-5197
+                                        <br>
+                                        Id Izin OSS : I-202408080403581932627
+                                        <br>
+                                        e-sertifikasi.pom.go.id
+                                    </p>
+                                    <p class="text-uppercase mb-1" style="color: greenyellow">
+                                        NOMOR INDUK BERUSAHA (NIB) : 2008230053865
+                                        <br>
+                                        NOMOR POKOK WAJIB PAJAK (NPWP) : 31.351.075.2-407.000
                                     </p>
                                     <div
                                         class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
+                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
+                                            href="assets/video/video1.mp4" target="_blank"><i
                                                 class="fas fa-play-circle me-2"></i> Watch Video</a>
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
                                             href="#">Learn More</a> --}}
@@ -150,10 +174,10 @@
                                                     class="fab fa-facebook-f"></i></a>
                                             <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i
                                                     class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-md-square btn-light rounded-circle mx-2"
-                                                href=""><i class="fab fa-instagram"></i></a>
-                                            <a class="btn btn-md-square btn-light rounded-circle ms-2"
-                                                href=""><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i
+                                                    class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i
+                                                    class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -163,20 +187,26 @@
                 </div>
             </div>
             <div class="header-carousel-item">
-                <img src="assets/img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                <img src="assets/img/fotoslide3.jpg" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row g-5">
                             <div class="col-12 animated fadeInUp">
                                 <div class="text-center">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To SALTA</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher
-                                        return</h1>
-                                    <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy...
+                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To GREEN PRESERVO</h4>
+                                    <h1 class="display-4 text-uppercase mb-4" style="color: greenyellow">
+                                        Hindari Penggunaan Bahan Tambahan Pangan Berbahaya Bagi Kesehatan Masyarakat
+                                        Indonesia.
+                                    </h1>
+                                    <p class="mb-5 fs-5">
+                                        Green Preservo Hadir Memenuhi Standar Cara Produksi Pangan Olahan Yang Baik
+                                        (CPPOB) BPOM RI Sesuai Dengan PERATURAN BADAN PENGAWAS OBAT DAN MAKANAN NOMOR 11
+                                        TAHUN 2019 TENTANG BAHAN TAMBAHAN PANGAN & NOMOR 29 TAHUN 2021 TENTANG
+                                        PERSYARATAN BAHAN TAMBAHAN PANGAN CAMPURAN
                                     </p>
                                     <div class="d-flex justify-content-center flex-shrink-0 mb-4">
-                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i
+                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
+                                            href="assets/video/video1.mp4" target="_blank"><i
                                                 class="fas fa-play-circle me-2"></i> Watch Video</a>
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
                                             href="#">Learn More</a> --}}
@@ -200,22 +230,92 @@
                     </div>
                 </div>
             </div>
+            <div class="header-carousel-item">
+                <img src="assets/img/fotoslide2.jpg" class="img-fluid w-100" alt="Image">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row gy-0 gx-5">
+                            <div class="col-lg-0 col-xl-5">
+                                {{-- <img src="assets/img/contentslide2.jpeg" alt="Logo"> --}}
+                            </div>
+                            <div class="col-xl-7 animated fadeInLeft">
+                                <div class="text-sm-center text-md-end">
+                                    <h4 class="text-primary text-uppercase fw-bold mb-2">Welcome To GREEN PRESERVO</h4>
+                                    <h1 class="display-4 text-uppercase mb-2" style="color: greenyellow">
+                                        Green Preservo Di Distribusikan Kepada Produsen Pangan Olahan Di Seluruh
+                                        Indonesia
+                                    </h1>
+                                    <p class="mb-1 fs-5">
+                                        Digunakan Untuk Pangan Olahan Seperti : Pangan Olahan Tahu, Mie Kuning, Bakso,
+                                        Otak-Otak, Cincau, dll.
+                                    </p>
+                                    {{-- <p class="text-uppercase mb-4" style="color: greenyellow">
+                                        NOMOR INDUK BERUSAHA (NIB) : 2008230053865 
+                                        <br>
+                                        NOMOR POKOK WAJIB PAJAK (NPWP) : 31.351.075.2-407.000
+                                    </p> --}}
+                                    <div
+                                        class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
+                                            href="assets/video/video1.mp4" target="_blank"><i
+                                                class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                        {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
+                                            href="#">Learn More</a> --}}
+                                    </div>
+                                    <div
+                                        class="d-flex align-items-center justify-content-center justify-content-md-end">
+                                        <h2 class="text-white me-2">Follow Us:</h2>
+                                        <div class="d-flex justify-content-end ms-2">
+                                            <a class="btn btn-md-square btn-light rounded-circle me-2"
+                                                href=""><i class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle mx-2"
+                                                href=""><i class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle mx-2"
+                                                href=""><i class="fab fa-instagram"></i></a>
+                                            <a class="btn btn-md-square btn-light rounded-circle ms-2"
+                                                href=""><i class="fab fa-linkedin-in"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Carousel End -->
     </div>
+
     <!-- Navbar & Hero End -->
 
-
     <!-- Abvout Start -->
-    <div class="container-fluid about py-5">
+    <div id="aboutnav" class="container-fluid about pb-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                     <div>
                         <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
-                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit
-                            temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
+                        <h1 class="mb-4">Visi</h1>
+                        <p class="mb-4">
+                            Menjadi pelopor dalam inovasi bahan tambahan pangan yang aman, ramah lingkungan dan
+                            mendukung keberlanjutan pangan sehat di Indonesia.
+                        </p>
+                        <h1 class="mb-4">Misi</h1>
+                        <p class="mb-4">
+                            1. Mengembangkan dan mempromosikan bahan tambahan pangan yang aman dan alami untuk
+                            meningkatkan kualitas pangan tanpa mengorbankan kesehatan.
+                            <br>
+                            2. Mendorong kolaborasi dengan industri makanan untuk menciptakan produk yang aman dan
+                            berkualitas tinggi.
+                            <br>
+                            3. Memberikan edukasi berkelanjutan kepada masyarakat tentang pentingnya memilih produk
+                            bahan tambahan pangan yang aman dan bermanfaat.
+                            <br>
+                            4. Berinovasi dalam penelitian dan pengembangan bahan tambahan pangan yang ramah lingkungan
+                            dan mendukung keberlanjutan pangan.
+                            <br>
+                            5. Berpartisipasi aktif dalam kebijakan pemerintah terkait regulasi bahan tambahan pangan
+                            untuk melindungi konsumen dan mendukung industri yang bertanggung jawab.
                         </p>
                         <div class="row g-4">
                             <div class="col-md-6 col-lg-6 col-xl-6">
@@ -237,10 +337,6 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <a href="#"
-                                    class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Whatsapp</a>
-                            </div>
-                            <div class="col-sm-6">
                                 <div class="d-flex">
                                     <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
                                     <div>
@@ -249,25 +345,29 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-sm-6">
+                                <a href="https://wa.me/081519816655"
+                                    class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Whatsapp</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded position-relative overflow-hidden">
-                        <img src="assets/img/about-2.png" class="img-fluid rounded w-100" alt="">
+                        <img src="assets/img/contentslide2.jpeg" class="img-fluid rounded w-100" alt="">
 
-                        <div class="" style="position: absolute; top: -15px; right: -15px;">
+                        {{-- <div class="" style="position: absolute; top: -15px; right: -15px;">
                             <img src="assets/img/about-3.png" class="img-fluid"
                                 style="width: 150px; height: 150px; opacity: 0.7;" alt="">
-                        </div>
-                        <div class=""
+                        </div> --}}
+                        {{-- <div class=""
                             style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
                             <img src="assets/img/about-4.png" class="img-fluid"
                                 style="width: 100px; height: 150px; opacity: 0.9;" alt="">
                         </div>
                         <div class="rounded-bottom">
                             <img src="assets/img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -276,7 +376,7 @@
     <!-- About End -->
 
     <!-- Services Start -->
-    <div class="container-fluid service pb-5">
+    <div id="navservices" class="container-fluid service pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Services</h4>
@@ -322,48 +422,6 @@
                         </div>
                         <div class="rounded-bottom p-4">
                             <a href="#" class="h4 d-inline-block mb-4">Managements</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
-                            {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="assets/img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Supply Optimization</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
-                            {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="assets/img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Hr Consulting</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
-                                Excepturi facilis neque nesciunt similique officiis veritatis,
-                            </p>
-                            {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="assets/img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4">Marketing Consulting</a>
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
                                 Excepturi facilis neque nesciunt similique officiis veritatis,
                             </p>
@@ -443,7 +501,7 @@
 
 
     <!-- Offer Start -->
-    <div class="container-fluid offer-section pb-5">
+    <div id="offernav" class="container-fluid offer-section pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Offer</h4>
@@ -757,7 +815,7 @@
 
 
     <!-- Team Start -->
-    <div class="container-fluid team pb-5">
+    <div id="teamnav" class="container-fluid team pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Team</h4>
@@ -858,7 +916,7 @@
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-5">
+    <div id="testimonialnav" class="container-fluid testimonial pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Testimonial</h4>
@@ -995,7 +1053,7 @@
     <!-- Testimonial End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+    <div id="contactnav" class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
         <div class="container py-5 border-start-0 border-end-0"
             style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
             <div class="row g-5">
@@ -1004,7 +1062,7 @@
                         <a href="index.html" class="p-0">
                             {{-- <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Stocker</h4> --}}
                             <!-- <img src="assets/img/logo.png" alt="Logo"> -->
-                            <img src="assets/img/salta.png" class="text w-5" style="width: 40%;" alt="">
+                            <img src="assets/img/salta.png" style="width: 30%;" alt="">
                         </a>
                         <p class="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit
                             amet, consectetur adipiscing...</p>
@@ -1093,7 +1151,7 @@
                         {{-- <a href="#" class="border-bottom text-white">
                             <i class="fas fa-copyright text-light me-2"></i>www.salta.com
                         </a>, --}}
-                        <i class="fas fa-copyright text-light me-2"></i>www.salta.com, 
+                        <i class="fas fa-copyright text-light me-2"></i>www.greenpreservo.com,
                         All right reserved.
                     </span>
                 </div>
@@ -1101,7 +1159,7 @@
                     <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                     <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                     <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By saltateam
+                    Designed By SALTA Corp
                     {{-- Designed By <a class="border-bottom text-white" href="#">saltateam</a> --}}
                     {{-- Distributed By <a class="border-bottom text-white" href="">ThemeWagon</a> --}}
                 </div>
@@ -1115,7 +1173,35 @@
     <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="fa fa-arrow-up"></i></a>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll('div[id]');
+            const navLinks = document.querySelectorAll('.nav-item.nav-link');
 
+            const options = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5 // Adjust this value as needed
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === `#${entry.target.id}`) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, options);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
