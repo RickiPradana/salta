@@ -29,6 +29,7 @@
     <!-- Web App Manifest -->
     <link rel="manifest" href="manifest.json"> <!-- Ensure the path is correct -->
 
+    <link rel="mask-icon" href="assets/img/safari-mask-icon" color="#ff0000">
     {{-- <link rel="icon" type="image/png" href="salta.png"> --}}
 
     <meta name="description"
