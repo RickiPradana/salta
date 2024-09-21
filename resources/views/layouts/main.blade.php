@@ -15,19 +15,19 @@
     <title>Green Preservo</title>
 
     <!-- Favicon in PNG format -->
-    <link rel="icon" type="image/png" sizes="192x192" href="/img/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="384x384" href="/img/android-chrome-384x384.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/img/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="384x384" href="assets/img/android-chrome-384x384.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/android-chrome-512x512.png">
     <!-- Ensure this icon exists -->
 
     <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-touch-icon.png">
 
     <!-- Web App Manifest -->
-    <link rel="manifest" href="/manifest.json"> <!-- Ensure the path is correct -->
+    <link rel="manifest" href="manifest.json"> <!-- Ensure the path is correct -->
 
     {{-- <link rel="icon" type="image/png" href="salta.png"> --}}
 
