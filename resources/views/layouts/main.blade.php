@@ -14,23 +14,29 @@
 
     <title>Green Preservo</title>
 
-    <!-- Favicon in PNG format -->
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="384x384" href="assets/img/android-chrome-384x384.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/android-chrome-512x512.png">
-    <!-- Ensure this icon exists -->
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 
-    <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-touch-icon.png">
+    <!-- Standard Favicon Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <!-- Web App Manifest -->
-    <link rel="manifest" href="manifest.json"> <!-- Ensure the path is correct -->
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="site.webmanifest">
 
-    <link rel="mask-icon" href="assets/img/safari-mask-icon" color="#ff0000">
-    {{-- <link rel="icon" type="image/png" href="salta.png"> --}}
+    <!-- Mask Icon for Safari Pinned Tabs -->
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <!-- Windows Tile Settings -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="browserconfig.xml">
+
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Additional Favicon (if needed) -->
+    {{-- <link rel="icon" type="image/png" href="salta.png"> <!-- Ensure this path is correct --> --}}
 
     <meta name="description"
         content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
