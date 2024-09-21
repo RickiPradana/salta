@@ -5,26 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Green Preservo">
-    <meta name="description" content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
-    <meta name="keywords" content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
+    <meta name="description"
+        content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
+    <meta name="keywords"
+        content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
 
     <title>Green Preservo</title>
 
     <!-- Favicon in PNG format -->
-    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="384x384" href="android-chrome-384x384.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png"> <!-- Add a 512x512 icon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="384x384" href="/img/android-chrome-384x384.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/android-chrome-512x512.png">
+    <!-- Ensure this icon exists -->
 
     <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon.png">
 
     <!-- Web App Manifest -->
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/manifest.json"> <!-- Ensure the path is correct -->
 
     {{-- <link rel="icon" type="image/png" href="salta.png"> --}}
 
