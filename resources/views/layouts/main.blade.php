@@ -40,11 +40,6 @@
 
     <!-- Template Stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-
-    <!-- Kaspersky Script (if needed) -->
-    <script type="text/javascript"
-        src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=GXvWFCmmxIgK_s9Uv-cZG17p3DeioaPK5rhkX9Uqny81A3TtDnyfvrKiFIA35aOpIvkm0tyFWEuAvxIiT3fHfQ"
-        charset="UTF-8"></script>
 </head>
 
 <body>
