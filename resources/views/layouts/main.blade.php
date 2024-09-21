@@ -12,6 +12,7 @@
     <!-- Favicon in ICO format -->
     {{-- <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"> --}}
     <link rel="icon" type="image/png" href="salta.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="salta.png">
 
     {{-- <!-- Standard PNG favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
