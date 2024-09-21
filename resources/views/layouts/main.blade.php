@@ -9,18 +9,21 @@
     <meta name="description" content=""> --}}
 
     <meta name="title" content="Green Preservo">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+    <!-- Favicon in ICO format -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+
+    <!-- Standard PNG favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('salta.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
-    <link rel="mask-icon" href="{{ asset('safari-mask-icon.svg') }}" color="#ffffff">
-    <link rel="manifest" href="{{ asset('manifest.json') }}">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
+    <!-- Apple Touch Icons for iOS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('apple-touch-icon.png') }}">
 
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="{{ asset('site.webmanifest') }}">
 
     <meta name="description"
         content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
