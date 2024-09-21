@@ -67,9 +67,7 @@
                                     <div class="ms-4">
                                         <h4>Call Us</h4>
                                         <p class="mb-0 fs-5" style="letter-spacing: 1px;">
-                                            081519816655
-                                            <br>
-                                            081219816655
+                                            +628000100xxx
                                         </p>
                                     </div>
                                 </div>

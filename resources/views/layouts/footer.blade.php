@@ -11,8 +11,8 @@
                          <img src="assets/img/salta.png" style="width: 30%;" alt="">
                      </a>
                      <p class="mb-4">
-                        Menjadi pelopor dalam inovasi bahan tambahan pangan yang aman, ramah lingkungan dan
-                        mendukung keberlanjutan pangan sehat di Indonesia.
+                         Menjadi pelopor dalam inovasi bahan tambahan pangan yang aman, ramah lingkungan dan
+                         mendukung keberlanjutan pangan sehat di Indonesia.
                      </p>
                      {{-- <div class="d-flex">
                       <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
@@ -68,9 +68,7 @@
                      <div class="d-flex align-items-center">
                          <i class="fa fa-phone-alt text-primary me-3"></i>
                          <p class="text-white mb-0">
-                            081519816655
-                             <br>
-                            081219816655
+                             +628000100xxx
                          </p>
                      </div>
                      <div class="d-flex align-items-center mb-4">
