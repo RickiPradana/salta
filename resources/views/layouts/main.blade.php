@@ -10,13 +10,12 @@
 
     <meta name="title" content="Green Preservo">
     <!-- Favicon for various platforms -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/salta-icon.ico') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/salta-icon.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/salta-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/salta-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/salta-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/salta-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/salta-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/favicon/site.webmanifest') }}">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <meta name="description"
         content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
