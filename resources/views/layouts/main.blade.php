@@ -2,32 +2,31 @@
 <html lang="en">
 
 <head>
-    <title>Green Preservo</title>
-    {{-- <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content=""> --}}
-
     <meta name="title" content="Green Preservo">
-    <!-- Favicon in ICO format -->
-    {{-- <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"> --}}
-    <link rel="icon" type="image/png" href="salta.png">
+    <meta name="description" content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
+    <meta name="keywords" content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <title>Green Preservo</title>
+
+    <!-- Favicon in PNG format -->
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="384x384" href="android-chrome-384x384.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-3192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png"> <!-- Add a 512x512 icon -->
 
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
+
+    <!-- Web App Manifest -->
     <link rel="manifest" href="manifest.json">
-    <!-- Standard PNG favicons -->
-    {{-- <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}"> --}}
 
-    <!-- Apple Touch Icons for iOS -->
-    {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('apple-touch-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('apple-touch-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('apple-touch-icon.png') }}"> --}}
-
-    <!-- Manifest for PWA -->
-    {{-- <link rel="manifest" href="{{ asset('site.webmanifest') }}"> --}}
+    {{-- <link rel="icon" type="image/png" href="salta.png"> --}}
 
     <meta name="description"
         content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
