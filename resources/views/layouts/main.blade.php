@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description" content=""> --}}
-    
+
     <meta name="title" content="Green Preservo">
-    <link rel="icon" href="{{ asset('assets/img/salta-icon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/img/salta-icon.ico') }}">
     <meta name="description"
-    content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
+        content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
     <meta name="keywords"
-    content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
+        content="pengawet tahu cara mengawetkan tahu bahan pengawet tahu pengawet alami tahu tips menyimpan tahu tahu tahan lama metode pengawetan tahu tahu tanpa pengawet pengawetan tahu tradisional masalah pengawet tahu efek samping pengawet tahu cara menghindari pengawet dalam tahu green preservo">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +58,7 @@
         <div class="row gx-0 align-items-center">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-flex flex-wrap">
-                    <a href="#" class="text-muted small me-4"><i
+                    <a href="#"nav class="text-muted small me-4"><i
                             class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
                     <a href="tel:+01234567890" class="text-muted small me-4"><i
                             class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
@@ -68,19 +68,19 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a href="#"><small class="me-3 text-dark"><i
-                                class="fa fa-user text-primary me-2"></i>Register</small></a>
-                    <a href="#"><small class="me-3 text-dark"><i
-                                class="fa fa-sign-in-alt text-primary me-2"></i>Login</small></a>
+                    <a href="#"><navsmall class="me-3 text-dark"><i
+                                class="fa fa-user text-primary me-2"></i>Register</navsmall></a>
+                    <a href="#"><navsmall class="me-3 text-dark"><i
+                                class="fa fa-sign-in-alt text-primary me-2"></i>Login</navsmall></a>
                     <div class="dropdown">
-                        <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
+                        <a href="#"nav class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i
                                     class="fa fa-home text-primary me-2"></i> My Dashboard</small></a>
                         <div class="dropdown-menu rounded">
-                            <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                            <a href="#"nav class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                            <a href="#"nav class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                            <a href="#"nav class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                            <a href="#"nav class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                            <a href="#"nav class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
                         </div>
                     </div>
                 </div>
@@ -92,53 +92,67 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
+            <a href="#" class="navbar-brand p-0">
                 <img src="{{ asset('assets/img/salta.png') }}" alt="Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <script>
-                    // Wait for the DOM to fully load
-                    document.addEventListener("DOMContentLoaded", function() {
-                        const navLinks = document.querySelectorAll('.nav-item.nav-link');
-
-                        navLinks.forEach(link => {
-                            link.addEventListener('click', function() {
-                                // Remove 'active' class from all links
-                                navLinks.forEach(item => item.classList.remove('active'));
-                                // Add 'active' class to the clicked link
-                                this.classList.add('active');
-                            });
-                        });
-                    });
-                </script>
-
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="#home" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#services" class="nav-item nav-link">Services</a>
-                    <a href="#offer" class="nav-item nav-link">Our offer</a>
-                    <a href="#team" class="nav-item nav-link">Our team</a>
-                    <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
-                    {{-- <div class="nav-item dropdown">
-              <a href="#" class="nav-link" data-bs-toggle="dropdown">
-                  <span class="dropdown-toggle">Pages</span>
-              </a>
-              <div class="dropdown-menu m-0">
-                  <a href="#team" class="dropdown-item">Our team</a>
-                  <a href="#testimonial" class="dropdown-item">Testimonial</a>
-                  <a href="#offer" class="dropdown-item">Our offer</a>
-              </div>
-          </div> --}}
-                    <a href="#contact" class="nav-item nav-link">Contact Us</a>
+                    <a href="#homenav" class="nav-item nav-link active">Home</a>
+                    <a href="#aboutnav" class="nav-item nav-link">About</a>
+                    <a href="#servicesnav" class="nav-item nav-link">Services</a>
+                    <a href="#offernav" class="nav-item nav-link">Our offer</a>
+                    <a href="#teamnav" class="nav-item nav-link">Our team</a>
+                    <a href="#testimonialnav" class="nav-item nav-link">Testimonial</a>
+                    <a href="#contactnav" class="nav-item nav-link">Contact Us</a>
                 </div>
             </div>
         </nav>
 
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const navLinks = document.querySelectorAll('.nav-item.nav-link');
+                const sections = document.querySelectorAll('div[id]');
+
+                // Handle active class for clicked links
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        navLinks.forEach(item => item.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+
+                // Intersection Observer for scrolling
+                const options = {
+                    root: null,
+                    rootMargin: '0px',
+                    threshold: 0.5 // Adjust this value as needed
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            navLinks.forEach(link => {
+                                link.classList.remove('active');
+                                if (link.getAttribute('href') === `#${entry.target.id}`) {
+                                    link.classList.add('active');
+                                }
+                            });
+                        }
+                    });
+                }, options);
+
+                sections.forEach(section => {
+                    observer.observe(section);
+                });
+            });
+        </script>
+
         <!-- Carousel Start -->
-        <div id="home" class="header-carousel owl-carousel">
+        <div id="homenav" class="header-carousel owl-carousel">
             <div class="header-carousel-item">
                 <img src="{{ asset('assets/img/fotoslide2.jpg') }}" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
@@ -169,7 +183,7 @@
                                             href="assets/video/video1.mp4" target="_blank"><i
                                                 class="fas fa-play-circle me-2"></i> Watch Video</a>
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
-                                  href="#">Learn More</a> --}}
+                                  href="#">navLearn More</a> --}}
                                     </div>
                                     {{-- <div
                                         class="d-flex align-items-center justify-content-center justify-content-md-end">
@@ -212,7 +226,7 @@
                                             href="assets/video/video1.mp4" target="_blank"><i
                                                 class="fas fa-play-circle me-2"></i> Watch Video</a>
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
-                                  href="#">Learn More</a> --}}
+                                  href="#">navLearn More</a> --}}
                                     </div>
                                     {{-- <div class="d-flex align-items-center justify-content-center">
                                         <h2 class="text-white me-2">Follow Us:</h2>
@@ -263,7 +277,7 @@
                                             href="assets/video/video1.mp4" target="_blank"><i
                                                 class="fas fa-play-circle me-2"></i> Watch Video</a>
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
-                                  href="#">Learn More</a> --}}
+                                  href="#">navLearn More</a> --}}
                                     </div>
                                     {{-- <div
                                         class="d-flex align-items-center justify-content-center justify-content-md-end">
@@ -294,38 +308,9 @@
     @extends('layouts.footer')
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i
+    <a href="#"nav class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="fa fa-arrow-up"></i></a>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const sections = document.querySelectorAll('div[id]');
-            const navLinks = document.querySelectorAll('.nav-item.nav-link');
-
-            const options = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.5 // Adjust this value as needed
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        navLinks.forEach(link => {
-                            link.classList.remove('active');
-                            if (link.getAttribute('href') === `#${entry.target.id}`) {
-                                link.classList.add('active');
-                            }
-                        });
-                    }
-                });
-            }, options);
-
-            sections.forEach(section => {
-                observer.observe(section);
-            });
-        });
-    </script>
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
