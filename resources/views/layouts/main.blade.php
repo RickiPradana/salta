@@ -9,7 +9,15 @@
     <meta name="description" content=""> --}}
 
     <meta name="title" content="Green Preservo">
-    <link rel="icon" href="{{ asset('assets/img/salta-icon.ico') }}">
+    <!-- Favicon for various platforms -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/salta-icon.ico') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/salta-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/salta-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/salta-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/salta-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/salta-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/salta-icon.png') }}">
+
     <meta name="description"
         content="Cara mengawetkan tahu dengan berbagai metode, baik alami maupun tradisional. Temukan tips menyimpan tahu agar tetap segar dan tahan lama.">
     <meta name="keywords"
