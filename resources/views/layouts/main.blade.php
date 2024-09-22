@@ -182,7 +182,7 @@
         <!-- Carousel Start -->
         <div id="homenav" class="header-carousel owl-carousel">
             <div class="header-carousel-item">
-                <img src="{{ asset('assets/img/fotoslide2.jpg') }}" class="img-fluid w-100" alt="Image">
+                <img src="{{ asset('assets/img/fotoslide1.jpg') }}" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row gy-0 gx-5">
@@ -234,7 +234,7 @@
                 </div>
             </div>
             <div class="header-carousel-item">
-                <img src="{{ asset('assets/img/fotoslide3.jpg') }}" class="img-fluid w-100" alt="Image">
+                <img src="{{ asset('assets/img/fotoslide2.jpg') }}" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row g-5">
@@ -276,7 +276,7 @@
                 </div>
             </div>
             <div class="header-carousel-item">
-                <img src="{{ asset('assets/img/fotoslide2.jp') }}g" class="img-fluid w-100" alt="Image">
+                <img src="{{ asset('assets/img/fotoslide3.jp') }}g" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row gy-0 gx-5">

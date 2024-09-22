@@ -27,11 +27,11 @@
 
     // Hero Header carousel
     $(".header-carousel").owlCarousel({
-        animateOut: 'fadeOut',
+        // animateOut: 'fadeOut',
         items: 1,
         margin: 0,
         stagePadding: 0,
-        autoplay: true,
+        autoplay: false,
         smartSpeed: 500,
         dots: true,
         loop: true,
