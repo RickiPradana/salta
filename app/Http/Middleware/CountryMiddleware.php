@@ -18,7 +18,7 @@ class CountryMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         $visitorData = GeoIP::getLocation();
-        
+
         DB::table('t_visitor')->insert([
             'ip_address' => $request->ip(),
             'country' => $visitorData['country'],
