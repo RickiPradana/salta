@@ -17,6 +17,7 @@ Route::get('/ip', function () {
     return view('captcha', ['num1' => $num1, 'num2' => $num2]);
 });
 Route::post('/cek_ip', [CaptchaController::class, 'cek_ip'])->name('cek_ip');
+Route::get('/cek_ip_decode', [CaptchaController::class, 'cek_ip_decode'])->name('cek_ip_decode');
 // Route::get('/cek_ip', function () {
 //     $visits = Visit::select('ip', 'created_at')->get(); // Retrieve both fields
 //     $data = [];

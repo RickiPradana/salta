@@ -196,9 +196,9 @@
                                         Cara Produksi Pangan Olahan yang Baik (CPPOB) BPOM RI
                                     </h1>
                                     <p class="mb-1 fs-5">
-                                        No. Evaluasi : PPP2409-5197
-                                        <br>
-                                        Id Izin OSS : I-202408080403581932627
+                                        PB-UMKU : 200823005386500000002
+                                        {{-- <br>
+                                        Id Izin OSS : I-202408080403581932627 --}}
                                     </p>
                                     <p class="text-uppercase mb-1" style="color: greenyellow">
                                         NOMOR INDUK BERUSAHA (NIB) : 2008230053865
@@ -251,7 +251,7 @@
                                     </p>
                                     <div class="d-flex justify-content-center flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                            href="assets/video/video1.mp4" target="_blank"><i
+                                            href="assets/video/video2.mp4" target="_blank"><i
                                                 class="fas fa-play-circle me-2"></i> Watch Video</a>
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
                                   href="#">navLearn More</a> --}}
@@ -302,7 +302,7 @@
                                     <div
                                         class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                            href="assets/video/video1.mp4" target="_blank"><i
+                                            href="assets/video/video3.mp4" target="_blank"><i
                                                 class="fas fa-play-circle me-2"></i> Watch Video</a>
                                         {{-- <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2"
                                   href="#">navLearn More</a> --}}

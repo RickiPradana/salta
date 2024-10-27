@@ -51,13 +51,36 @@
                                         <p>
                                             2010
                                             <br>
-                                            <a href="{{ asset('assets/file/PGJ_SIRIN_DEPOK030824.xlsx') }}">
+                                            {{-- <a href="{{ asset('assets/file/PGJ_SIRIN_DEPOK030824.xlsx') }}">
                                                 PGJ SIRIN DEPOK 03-08-2024
                                             </a>
                                             <a href="{{ asset('assets/file/PGJ_SIRIN_DEPOK080824.xlsx') }}">
                                                 PGJ SIRIN DEPOK 08-08-2024
-                                            </a>
+                                            </a> --}}
                                         </p>
+                                        <ol class="m-0 ps-4">
+                                            <li>SIRIN</li>
+                                            <li>NELI BL</li> 
+                                            <li>KARYOTO</li>
+                                            <li>ANTO BJM</li>
+                                            <li>KIWIR UGD</li>
+                                            <li>SAHIM SAB</li>
+                                            <li>PEKING</li>
+                                            <li>KEMO CILEUNGSI</li>
+                                            <li>EDI UM</li>
+                                            <li>BENJO</li>
+                                            <li>CSR</li>
+                                            <li>UMJ BEKASI</li>
+                                            <li>UMJ SUKABUMI</li>
+                                            <li>UMJ CIKARANG</li>
+                                            <li>SITI NJM</li>
+                                            <li>YUSUF</li>
+                                            <li>SSR CIKARANG</li>
+                                            <li>WANTO</li>
+                                            <li>K99</li>
+                                            <li>86 (DEKAT KEMO)</li>
+                                            <li>PURWOKERTO</li>
+                                        </ol>
                                     </div>
                                 </div>
                             </div>
@@ -67,13 +90,13 @@
                                     <div class="ms-4">
                                         <h4>Call Us</h4>
                                         <p class="mb-0 fs-5" style="letter-spacing: 1px;">
-                                            +628000100xxx
+                                            085158361551
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Whatsapp</a>
+                                <a href="https://wa.me/+6285158361551" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Whatsapp</a>
                             </div>
                         </div>
                     </div>
@@ -81,6 +104,8 @@
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded position-relative overflow-hidden">
                         <img src="{{ asset('assets/img/contentslide2.jpeg') }}" class="img-fluid rounded w-100"
+                            alt="">
+                        <img src="{{ asset('assets/img/contentslide3.png') }}" class="img-fluid rounded w-100"
                             alt="">
 
                         {{-- <div class="" style="position: absolute; top: -15px; right: -15px;">
@@ -103,7 +128,7 @@
     <!-- About End -->
 
     <!-- Services Start -->
-    <div id="servicesnav" class="container-fluid service pb-5">
+    {{-- <div id="servicesnav" class="container-fluid service pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Services</h4>
@@ -125,7 +150,6 @@
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
                                 Excepturi facilis neque nesciunt similique officiis veritatis,
                             </p>
-                            {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
                         </div>
                     </div>
                 </div>
@@ -140,7 +164,6 @@
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
                                 Excepturi facilis neque nesciunt similique officiis veritatis,
                             </p>
-                            {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
                         </div>
                     </div>
                 </div>
@@ -155,13 +178,12 @@
                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint?
                                 Excepturi facilis neque nesciunt similique officiis veritatis,
                             </p>
-                            {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Services End -->
 
     <!-- Features Start -->
@@ -231,7 +253,7 @@
 
 
     <!-- Offer Start -->
-    <div id="offernav" class="container-fluid offer-section pb-5">
+    {{-- <div id="offernav" class="container-fluid offer-section pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Offer</h4>
@@ -272,7 +294,6 @@
                                         amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
                                         dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
                                     </p>
-                                    {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
                                 </div>
                             </div>
                         </div>
@@ -280,7 +301,7 @@
                             <div class="row g-4">
                                 <div class="col-md-7">
                                     <img src="{{ asset('') }}assets/img/offer-2.jpg" class="img-fluid w-100 rounded"
-                                        alt="">
+                                    alt="">
                                 </div>
                                 <div class="col-md-5">
                                     <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
@@ -288,7 +309,6 @@
                                         amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
                                         dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
                                     </p>
-                                    {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
                                 </div>
                             </div>
                         </div>
@@ -296,7 +316,7 @@
                             <div class="row g-4">
                                 <div class="col-md-7">
                                     <img src="{{ asset('') }}assets/img/offer-3.jpg" class="img-fluid w-100 rounded"
-                                        alt="">
+                                    alt="">
                                 </div>
                                 <div class="col-md-5">
                                     <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
@@ -304,7 +324,6 @@
                                         amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
                                         dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
                                     </p>
-                                    {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
                                 </div>
                             </div>
                         </div>
@@ -320,7 +339,6 @@
                                         amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error
                                         dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
                                     </p>
-                                    {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
                                 </div>
                             </div>
                         </div>
@@ -328,7 +346,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
+    {{-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> --}}
     <!-- Offer End -->
 
     <!-- Blog Start -->
@@ -549,7 +568,7 @@
 
 
     <!-- Team Start -->
-    <div id="teamnav" class="container-fluid team pb-5">
+    {{-- <div id="teamnav" class="container-fluid team pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Our Team</h4>
@@ -646,11 +665,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <div id="testimonialnav" class="container-fluid testimonial pb-5">
+    {{-- <div id="testimonialnav" class="container-fluid testimonial pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-primary">Testimonial</h4>
@@ -783,6 +802,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial End -->
 @endsection

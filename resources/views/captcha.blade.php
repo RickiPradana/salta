@@ -19,6 +19,14 @@
                 <label for="captcha">What is {{ $num1 }} + {{ $num2 }}?</label>
                 <input type="text" class="form-control" id="captcha" name="captcha" required>
             </div>
+            <div class="form-group">
+                <label for="Form">Form</label>
+                <input type="text" class="form-control" id="from" name="from" required>
+            </div>
+            <div class="form-group">
+                <label for="To">To</label>
+                <input type="text" class="form-control" id="to" name="to" required>
+            </div>
 
             <input type="hidden" name="captcha_result" value="{{ $num1 + $num2 }}">
 
