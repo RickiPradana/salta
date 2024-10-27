@@ -61,19 +61,30 @@
                          <i class="fas fa-map-marker-alt text-primary me-3"></i>
                          <p class="text-white mb-0">Bekasi Jaya Kota Bekasi</p>
                      </div>
-                     <div class="d-flex align-items-center">
+                     {{-- <div class="d-flex align-items-center">
                          <i class="fas fa-envelope text-primary me-3"></i>
-                         <p class="text-white mb-0">info@example.com</p>
+                         <div>
+                             <p class="text-white mb-0">gustavo@greenpreservo.com</p>
+                             <p class="text-white mb-0">fatur@greenpreservo.com</p>
+                         </div>
+                     </div> --}}
+                     <div class="d-flex align-items-start">
+                         <i class="fas fa-envelope text-primary me-3" style="align-self: top; margin-top: 12px;"></i>
+                         <div>
+                             <p class="text-white mb-0">gustavo@greenpreservo.com</p>
+                             <p class="text-white mb-0">fatur@greenpreservo.com</p>
+                         </div>
                      </div>
                      <div class="d-flex align-items-center">
                          <i class="fa fa-phone-alt text-primary me-3"></i>
                          <p class="text-white mb-0">
-                             +628000100xxx
+                             085158361551
                          </p>
                      </div>
                      <div class="d-flex align-items-center mb-4">
                          <i class="fab fa-firefox-browser text-primary me-3"></i>
-                         <p class="text-white mb-0">www.greenpreservo.com</p>
+                         <a class="text-white mb-0" href="https://greenpreservo.com">www.greenpreservo.com</a>
+                         {{-- <p class="text-white mb-0">www.greenpreservo.com</p> --}}
                      </div>
                      <div class="d-flex">
                          <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
